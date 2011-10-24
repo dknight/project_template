@@ -1,0 +1,3 @@
+h1. HTML project template
+
+For personal use.
