@@ -14,15 +14,39 @@ body {
   text-align:left;
 }
 header {
-  /* Styles */
+  /* TODO: Styles */
 }
 #content {
-  /* Styles */
+  /* TODO: Styles */
 }
 footer {
-  /* Styles */
+  /* TODO: Styles */
 }
+
+/* ------ Clear ------ */
 .clear {
   visibility:hidden;
   clear:both;
+  line-height:0;
+  height: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
 }
